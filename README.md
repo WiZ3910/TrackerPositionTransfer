@@ -1,2 +1,12 @@
 # TrackerPositionTransfer
- A simple component to share trackers(or general gameobjects) via UDP in local network.
+A simple component to share trackers(or general gameobjects) via UDP in local network.
+
+## QuickStart
+- Import MessagePack for C# on your unity first.
+- Import this by .unitypackage from releases page.
+- Attach sender/receiver component to any gamecomponent.
+- Set tracker references on inspector.
+
+## Notices
+- Make sure that your project can use MessagePack for C#.
+- Make sure that you can receive UDP (port is 3910). Check transport reguration settings of each OS. Or shut firewall down temporally.
