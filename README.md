@@ -4,7 +4,7 @@ A simple component to share trackers(or general gameobjects) via UDP in local ne
 ## QuickStart
 - Import [MessagePack for C#](https://github.com/neuecc/MessagePack-CSharp/releases) on your unity first.
 - Import this by .unitypackage from releases page.
-- Attach sender/receiver component to any gamecomponent.
+- Attach sender/receiver component to any gameObject.
 - Set tracker references on inspector.
 
 ## Notices
